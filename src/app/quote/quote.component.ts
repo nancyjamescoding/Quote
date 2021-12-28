@@ -14,6 +14,12 @@ quotes: Quote[] = [
     new Quote(5,'You define your own life','Don’t let other people write your script.',new Date(2019,2,14)),
     new Quote(6,'You can be everything','You can be the infinite amount of things that people are.',new Date(2030,3,14)),
   ];
+  addNewQuote(quote: Quote){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
+  }
   toggleDetails(index: number){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }

@@ -6,6 +6,7 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
+title = 'Motivational quotes';
 quotes: Quote[] = [
     new Quote(1,'When you have a dream,', 'you’ve got to grab it and never let go.',new Date(2020,3,14)),
     new Quote(2,'Life has got all those twists and turns.','You’ve got to hold on tight and off you go',new Date(2019,6,9)),

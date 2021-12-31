@@ -1,0 +1,42 @@
+.overlay{
+    background-color:rgb(241, 247, 248);
+    padding-bottom: 5%;
+    height: 100%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-weight: bolder;
+    padding-left: 5%;
+    height: 70px;
+    width: 100%;
+    background-color:lightskyblue;
+    margin-bottom: 50px;
+}
+
+.quote-and-form-section {
+    width: 100%;
+}
+.quote-section {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-section {
+    float: right;
+    width: 50%;
+}
+
+h3{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.quote-description {
+    font-style: italic;
+    font-size: large;
+}

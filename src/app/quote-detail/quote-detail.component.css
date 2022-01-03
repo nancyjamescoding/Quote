@@ -1,0 +1,12 @@
+#delete{
+    float: right;
+}
+#upvote{
+    float:left;
+    margin-right: 2%;
+}
+#downvote{
+    background-color: firebrick;
+    color: white;
+
+}

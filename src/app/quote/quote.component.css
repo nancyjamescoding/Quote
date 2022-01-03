@@ -52,3 +52,14 @@ h3{
     font-weight: bold;
     
 } 
+#date{
+    float: right;
+    font-size: 14px;
+  }
+span{
+    font-family: 'Architects Daughter', cursive;
+  }
+.posted{
+    font-family: 'Architects Daughter', cursive;
+
+  }

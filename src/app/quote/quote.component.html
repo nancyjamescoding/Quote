@@ -1,10 +1,10 @@
 <div class="overlay">
   <div class="title"><h1>{{title}}</h1></div>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
         <div class="col-sm-9">
         <div class= "all-cards">
-          <div *ngFor='let quote of quotes;let i = index' class="card" style="width: 24rem;">
+          <div *ngFor='let quote of sortQuotes;let i = index' class="card" style="width: 24rem;">
             <div class="card-body">  
               <h3><b> {{quote.title}} </b></h3>
               <p class="quote-description"> {{quote.quote}} {{quote.description}}</p>
@@ -13,7 +13,7 @@
     
             <div *ngIf='quote.showDescription'>
               <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
-              <span class="card-subtitle mb-2">Posted by: <span id="name">{{ quote.name }}</span> <span id="date">on: <span id="datecolor">{{ quote.completeDate|date:'short' }}</span></span></span>
+              <span class= "posted">Posted by: <span id="name">{{ quote.name }}</span> <span id="date">on: <span id="datecolor">{{ quote.completeDate|date:'short' }}</span></span></span>
             </div>
           </div>
         </div>

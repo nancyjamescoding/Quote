@@ -19,7 +19,8 @@ quotes: Quote[] = [
     return this.quotes.sort((a, b) => {
       return <any>new Date(b.completeDate) - <any>new Date(a.completeDate);
     });
-  }  
+  } 
+
   addNewQuote(quote: Quote){
     let quoteLength = this.quotes.length;
     quote.id = quoteLength+1;

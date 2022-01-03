@@ -1,5 +1,5 @@
 <!-- <p>{{quote.description}}</p> -->
-<p>Posted {{quote.completeDate|dateCount}} days</p>
+<p>Posted {{quote.completeDate|dateCount}} days ago</p>
 <div class="container-fluid" id="buttons">
 <button class="btn btn-sm btn-danger" id="delete" (click)='quoteDelete(true)'><i class="fa fa-trash" id="delete"></i></button> 
 <button class="btn btn-sm btn-success" id="upvote" (click)='upvote()'>{{quote.likes}} <i class="fa fa-thumbs-up" id="like"></i></button> 

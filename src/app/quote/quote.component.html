@@ -6,7 +6,6 @@
         <div class= "all-cards">
           <div *ngFor='let quote of sortQuotes;let i = index' class="card" style="width: 24rem;">
             <div class="card-body">  
-              <li appHighlightQuote>{{quote.name}}</li>
               <h3><b> {{quote.title}} </b></h3>
               <p class="quote-description"> {{quote.quote}} {{quote.description}}</p>
               <button (click)='toggleDetails(i)' type="button" class="btn btn-info">Read More</button>

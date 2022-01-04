@@ -1,27 +1,36 @@
-# Quote
+# QOUTES
+## Author [Nancy Ndungu]
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+### Description
+This is an application that enables users to create a new quote,upvote or downvote a quote.,delete a quote,See the number of upvotes and number of downvotes for each quote.
 
-## Development server
+### live Page
+https://nancyjamescoding.github.io/Quote/ 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Installation/ Set-up Process
+* Open Terminal {Ctrl+Alt+T}
 
-## Code scaffolding
+* git clone https://nancyjamescoding.github.io/Quote/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* cd quote.
 
-## Build
+* code . or atom . depending on the text editor of your choice.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### TECHNOLOGIES USED
+  * CSS
+  * AngulerCLI
+  * BOOTSTRAP
+  * HTML
 
-## Running unit tests
+### BDD
+  User clicks Post Quote-Quote form displays with input fields for Author, Publisher
+  User Clicks Delete-The quote is REMOVED from view
+  User clicks Upvote-upvote is incremented value by 1 on each click
+  User clicks Downvote-downvote is decremented value by 1 on each click
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Contact Information
+     You can reach us on [nancy.ndung'u@student.moringaschool.com] 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### License
+    . MIT license:
+    . Copyright (c) 2021 [Nancy Ndung

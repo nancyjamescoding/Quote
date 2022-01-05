@@ -19,8 +19,9 @@ https://nancyjamescoding.github.io/Quote/
 ### TECHNOLOGIES USED
   * CSS
   * AngulerCLI
-  * BOOTSTRAP
+  * Bootstrap
   * HTML
+  * Typescript
 
 ### BDD
   * User clicks Add Quote

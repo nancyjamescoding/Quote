@@ -23,10 +23,10 @@ https://nancyjamescoding.github.io/Quote/
   * HTML
 
 ### BDD
-  User clicks Post Quote-Quote form displays with input fields for Author, Publisher
-  User Clicks Delete-The quote is REMOVED from view
-  User clicks Upvote-upvote is incremented value by 1 on each click
-  User clicks Downvote-downvote is decremented value by 1 on each click
+  * User clicks Add Quote
+  * User Clicks Delete-The quote is REMOVED from view
+  * User clicks Upvote-upvote is incremented value by 1 on each click
+  * User clicks Downvote-downvote is decremented value by 1 on each click
 
 ### Contact Information
      You can reach us on [nancy.ndung'u@student.moringaschool.com] 

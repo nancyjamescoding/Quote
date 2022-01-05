@@ -4,18 +4,20 @@ import { Directive, ElementRef, HostListener} from '@angular/core';
   selector: '[appHighlightQuote]'
 })
 export class HighlightQuoteDirective {
+      constructor(elem:ElementRef) {
+        elem.nativeElement.style.backgroundColor="#834c69"
+       }
+    }
 
-  constructor(private elem:ElementRef) { 
-  }
-  @HostListener("click") onClicks(){
-    this.textDeco("green")
-  }
+//   constructor(private elem:ElementRef) { 
+//   }
 
-  @HostListener("dblclick") onDoubleClicks(){
-    this.textDeco("None")
-  }
-  private textDeco(action:string){
-    this.elem.nativeElement.style.color=action;
-  }
+//   @HostListener("click") onClicks(){
+//     this.textDeco("yellow")
+//   }
 
-}
+//   private textDeco(action:string){
+//     this.elem.nativeElement.style.color = action;
+//   }
+
+// }
